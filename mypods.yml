@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myhomepod
+spec:
+  containers:
+  - name: myfc
+    image: nginx
+    resources:
+    ports:
+      - containerPort: 80
