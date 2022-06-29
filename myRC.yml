@@ -1,0 +1,19 @@
+apiVersion: v2
+kind: ReplicationController
+metadata:
+  name: myapp-nginx
+spec:
+  replicas: 3
+  selector:
+    app: myapp-nginx
+  template:
+    metadata:
+      name: myapp-nginx
+      labels:
+        app: myapp-nginx
+    spec:
+      containers:
+        - name: myapp-nginx-fstRC
+          image: nginx
+          ports:
+            - containerPort: 80
