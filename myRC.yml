@@ -1,7 +1,7 @@
 apiVersion: v2
 kind: ReplicationController
 metadata:
-  name: myapp-nginx
+  name: myapp-nginx-rc
 spec:
   replicas: 3
   selector:
