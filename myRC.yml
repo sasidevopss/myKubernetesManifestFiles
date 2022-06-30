@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: myapp-rc
 spec:
-  replicas: 5
+  replicas: 6
   selector:
     app: myapp-pod
   template:
