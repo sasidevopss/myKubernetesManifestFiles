@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - name: myapp-pod-fc
-          image: sasidevopss/myjavaimage24june2022:1
+          image: nginx
           ports:
-            - containerPort: 8080
+            - containerPort: 80
