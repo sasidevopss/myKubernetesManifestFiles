@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: myapp-pod-fc
-          image: sasidevopss/myjavaimage24june2022:1
+          image: sasidevopss/myjenkinsimage05july2022:1
           ports:
             - containerPort: 8080
