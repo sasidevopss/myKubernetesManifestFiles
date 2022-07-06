@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myjavaapp-cr
-        image: sasidevopss/mymahalogin07july2022:1
+        image: sasidevopss/mymahalogin07july2022:2
         ports:
         - containerPort: 8080
